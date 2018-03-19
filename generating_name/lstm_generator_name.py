@@ -13,7 +13,7 @@ if not os.path.isfile(path):
     context = ssl._create_unverified_context()
     moves.urllib.request.urlretrieve("https://raw.githubusercontent.com/peter-doherty/energy_company_name/master/companies/companies.txt", path) # , context=context
 
-maxlen = 30
+maxlen = 7
 
 X, Y, char_idx = \
     textfile_to_semi_redundant_sequences(path, seq_maxlen=maxlen, redun_step=3)
@@ -21,9 +21,9 @@ X, Y, char_idx = \
 g = tflearn.input_data(shape=[None, maxlen, len(char_idx)])
 g = tflearn.lstm(g, 512, return_seq=True)
 # converging on identitcal positions
-g = tflearn.dropout(g, 0.25)
+g = tflearn.dropout(g, 0.55)
 g = tflearn.lstm(g, 512)
-g = tflearn.dropout(g, 0.25)
+g = tflearn.dropout(g, 0.55)
 g = tflearn.fully_connected(g, len(char_idx), activation='softmax')
 g = tflearn.regression(g, optimizer='adam', loss='categorical_crossentropy',
                        learning_rate=0.001)
@@ -34,7 +34,7 @@ m = tflearn.SequenceGenerator(g, dictionary=char_idx,
                               checkpoint_path='model_companies')
 
 
-for i in range(60):
+for i in range(40):
     seed = random_sequence_from_textfile(path, maxlen)
     m.fit(X, Y, validation_set=0.1, batch_size=128,
           n_epoch=1, run_id='companies')
