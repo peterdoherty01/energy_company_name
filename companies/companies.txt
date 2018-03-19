@@ -19,7 +19,7 @@ BHP Billiton
 Blacksands Pacific
 BP
 Bridas Corporation
-Cabot Oil & Gas
+Cabot Oil and Gas
 Cairn Energy
 Canadian Natural Resources
 Cenovus Energy
@@ -27,14 +27,14 @@ Centrica
 Chesapeake Energy
 Chevron Corporation
 Cimarex Energy
-Compañía Española de Petróleos
+Compania Espanola de Petroleos
 Concho Resources
 ConocoPhillips
 Continental Resources
 Crescent Point Energy
-Cuba Petróleo Union
+Cuba Petroleo Union
 Dana Petroleum
-DEA AG
+DEA
 Denbury Resources
 Devon Energy
 DNO ASA
@@ -42,7 +42,7 @@ DONG Energy
 Ecopetrol
 Edison
 Edoardo Raffinerie Garrone
-Empresa Nacional del Petr�leo
+Empresa Nacional del Petroleo
 Empresas Copec
 Enarsa
 Encana
@@ -60,7 +60,7 @@ Greka Energy
 Grupa Lotos
 Hellenic Petroleum
 Hess Corporation
-HKN, Inc.
+HKN
 Husky Energy
 Imperial Oil
 INA Industrija Nafte
@@ -77,7 +77,7 @@ Marathon Oil
 Maxol
 MEG Energy
 MOL Group
-Moravské naftové doly
+Moravske naftove doly
 Murphy Oil
 Naftna Industrija Srbije
 Nalcor Energy
@@ -94,7 +94,7 @@ OMV
 OMV Petrom
 Ophir Energy
 Origin Energy
-Pacific Exploration & Production
+Pacific Exploration and Production
 Pan American Energy
 Partex Oil and Gas
 PDVSA
@@ -105,7 +105,7 @@ Petrobras
 Petroecuador
 PetroKazakhstan
 Petrol AD
-Petroperú
+Petroperu
 PetroSA
 Petrotrin
 PGNiG
@@ -124,7 +124,7 @@ Royal Dutch Shell
 Russneft
 SandRidge Energy
 Santos
-Saras S.p.A.
+Saras
 Sasol
 ShaMaran Petroleum
 Shell Oil Company
@@ -134,16 +134,16 @@ Societe Nationale des Petroles du Congo
 Sonangol Group
 Sonatrach
 Southwestern Energy
-Star Africa Commodities & Minerals Limited
+Star Africa Commodities and Minerals
 Statoil
 Sudapet
 Suncor Energy
 Surgutneftegas
-Swala Oil and Gas(Tanzania)Plc
+Swala Oil and Gas
 Syncrude
 Tatneft
 Todd Energy
-Total S.A.
+Total
 Tullow Oil
 Ukrnafta
 Vaalco Energy
