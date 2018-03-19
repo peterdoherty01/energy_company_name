@@ -1,4 +1,4 @@
-# energy_company_name
+# Energy Company Name
 This project involves generating a new company name for an energy company. 
 Inspired by Statoil's name change to Equinor (Source:https://www.statoil.com/en/news/15mar2018-statoil.html)
 
@@ -11,18 +11,10 @@ There were two objectives outlined:
 ## Training Set
 Company names were scraped using Python from https://en.wikipedia.org/wiki/List_of_oil_exploration_and_production_companies.
 
-## Libraries
+## Libraries/Dependancies
 1. Tflearn
-
-
-## Results
-The main results were:
-
-1. New Name
-
-* Whiting Petrole   
-
-2. Sentiment Analysis for Statoil Name Change
+2. textblob
+3. tweepy
 
 ## Limitations
 
@@ -38,8 +30,11 @@ The objective of the Statoil name change was to promote a more clean energy focu
 3. Removed Inc or  S.p.A. or similar which related to their incorporation structure
 4. (Tanzania)Plc was removed from Swala Oil and Gas
 
+### References
+* https://www.youtube.com/watch?v=o_OZdbCzHUA
+* https://github.com/kalradivyanshu/TwitterSentiment
+* https://www.youtube.com/watch?v=KvoZU-ItDiE&t=2116s
+* https://github.com/tflearn/tflearn/tree/master/examples
+
 ### Licence
 MIT
-
-### Questions?
-Email: peter@computationhub.com
