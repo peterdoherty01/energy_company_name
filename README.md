@@ -35,6 +35,8 @@ The objective of the Statoil name change was to promote a more clean energy focu
 * https://github.com/kalradivyanshu/TwitterSentiment
 * https://www.youtube.com/watch?v=KvoZU-ItDiE&t=2116s
 * https://github.com/tflearn/tflearn/tree/master/examples
+* https://opensource.com/article/17/6/collecting-and-mapping-twitter-data-using-r
+* ttps://www.analyticsvidhya.com/blog/2017/03/measuring-audience-sentiments-about-movies-using-twitter-and-text-analytics/
 
 ### Licence
 MIT
