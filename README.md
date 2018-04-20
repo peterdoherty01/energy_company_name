@@ -1,12 +1,12 @@
 # Energy Company Name
 This project involves generating a new company name for an energy company. 
-Inspired by Statoil's name change to Equinor (Source:https://www.statoil.com/en/news/15mar2018-statoil.html)
+Inspired by Statoil's name change to Equinor (Source:https://www.statoil.com/en/news/15mar2018-statoil.html). It seems that in some tweets people didn't like the name or poked fun at it.
 
 ## Objectives
 There were two objectives outlined:
 
-1. Determine the reaction from the public of the new name using a sentiment analysis and display results
-2. Generate a completely new company name using existing company names in the sector
+1. Determine the reaction from the public of the Statoil's new name using sentiment analysis and display results
+2. Generate a completely new company name using existing company names. Test with public.
 
 ## Training Set
 Company names were scraped using Python from https://en.wikipedia.org/wiki/List_of_oil_exploration_and_production_companies.
